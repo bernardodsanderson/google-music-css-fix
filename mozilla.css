@@ -11,6 +11,18 @@
     box-shadow: none;
     transition: none;
   }
+  .material-card {
+    border-radius: 0;
+  }
+  .material-card .image-wrapper {
+    border-radius: 0;
+  }
+  .material-card .image-inner-wrapper {
+    border-radius: 0;
+  }
+  .material-card .image {
+    border-radius: 0;
+  }
   paper-fab.paper-fab-0 {
     display: none;
   }
