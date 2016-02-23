@@ -30,4 +30,13 @@
   #player {
     box-shadow: none;
   }
+  #gbwa {
+    display: none;
+  }
+  .gb_ic.gb_Zc.gb_R.gb_jc {
+    display: none;
+  }
+  .gb_Zc {
+    padding: 0 0 0 90px;
+  }
 }
