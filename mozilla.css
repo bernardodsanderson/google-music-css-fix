@@ -39,4 +39,7 @@
   .gb_Zc {
     padding: 0 0 0 90px;
   }
+  .transition.paper-drawer-panel > #drawer.paper-drawer-panel {
+    transition: none;
+  }
 }
