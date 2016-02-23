@@ -27,4 +27,7 @@
     box-shadow: none;
     transition: none;
   }
+  #player {
+    box-shadow: none;
+  }
 }
