@@ -13,9 +13,6 @@ core-header-panel#content-container.transparent #material-app-bar, paper-header-
 core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
   margin: 16px 16px 30px 16px;
 }
-.material-shadow-z1, #player, .material-card.material-shadow-z1:hover, .material-card.material-shadow-z1.focused, .entity-card.material-card:hover .material-shadow-z1, .entity-card.material-card.focused .material-shadow-z1 {
-  box-shadow: none;
-}
 .gb_Zc {
   padding: 0 0 0 90px;
 }
@@ -27,4 +24,5 @@ core-header-panel #music-content.material .g-content, paper-header-panel #music-
 }
 * {
   transition: none !important;
+  box-shadow: none !important; 
 }
