@@ -1,0 +1,30 @@
+.material-detail-view .has-hero-image {
+  margin-top: 0;
+}
+.material-card, .material-card .image-wrapper, .material-card .image-inner-wrapper, .material-card .image, .material-container {
+  border-radius: 0;
+}
+core-header-panel#content-container.transparent #material-app-bar, paper-header-panel#content-container.transparent #material-app-bar {
+  background-color: #ef6c00;
+}
+.gb_ic.gb_Zc.gb_R.gb_jc, #gbwa, paper-fab.paper-fab-0, core-drawer-panel core-image#material-hero-image, paper-drawer-panel iron-image#material-hero-image {
+  display: none;
+}
+core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
+  margin: 16px 16px 30px 16px;
+}
+.material-shadow-z1, #player, .material-card.material-shadow-z1:hover, .material-card.material-shadow-z1.focused, .entity-card.material-card:hover .material-shadow-z1, .entity-card.material-card.focused .material-shadow-z1 {
+  box-shadow: none;
+}
+.gb_Zc {
+  padding: 0 0 0 90px;
+}
+.cluster .lane-button.prev {
+    left: -30px;
+}
+.cluster .lane-button.next {
+    right: -30px;
+}
+* {
+  transition: none !important;
+}
