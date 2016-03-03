@@ -1,7 +1,7 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("play.google.com/music") {
-  .material-detail-view .has-hero-image {
+@-moz-document domain("play.google.com") {
+  .material-detail-view .has-hero-image, .solid-hero .material-detail-view .has-hero-image {
     margin-top: 0;
   }
   .material-card, .material-card .image-wrapper, .material-card .image-inner-wrapper, .material-card .image, .material-container {
@@ -10,11 +10,14 @@
   core-header-panel#content-container.transparent #material-app-bar, paper-header-panel#content-container.transparent #material-app-bar {
    background-color: #ef6c00;
   }
-  .gb_ic.gb_Zc.gb_R.gb_jc, #gbwa, paper-fab.paper-fab-0, core-drawer-panel core-image#material-hero-image, paper-drawer-panel iron-image#material-hero-image {
+  .gb_ic.gb_Zc.gb_R.gb_jc, #gbwa, paper-fab.paper-fab-0, core-drawer-panel core-image#material-hero-image, paper-drawer-panel iron-image#material-hero-image, .gb_ic gb_0c, .gb_R gb_jc, .gb_lc, .gb_mc, .gb_nc gb_Nb {
     display: none;
   }
   core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
    margin: 16px 16px 30px 16px;
+  }
+  .material-shadow-z1, #player, .material-card.material-shadow-z1:hover, .material-card.material-shadow-z1.focused, .entity-card.material-card:hover .material-shadow-z1, .entity-card.material-card.focused .material-shadow-z1 {
+    box-shadow: none;
   }
   .gb_Zc {
     padding: 0 0 0 90px;
@@ -25,8 +28,9 @@
   .cluster .lane-button.next {
     right: -30px;
   }
-  * {
+  *, .material-shadow-z1 {
     transition: none !important;
     box-shadow: none !important; 
+    border-radius: 0 !important;
   }
 }
