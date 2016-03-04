@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("play.google.com") {
+@-moz-document domain("play.google.com/music") {
   .material-detail-view .has-hero-image, .solid-hero .material-detail-view .has-hero-image {
     margin-top: 0;
   }
