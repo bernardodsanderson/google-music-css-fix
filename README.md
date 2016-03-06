@@ -1,6 +1,8 @@
 # google-music-css-fix
 
-This is a small set of CSS rules to make Google Play Music faster and better
+**This is a small set of CSS rules to make Google Play Music faster and better**
+
+Basically taking out and simplifying all the CSS3 transitions and box-shadows
 
 - With Mozilla you can use [Stylish add-on](https://addons.mozilla.org/en-US/firefox/addon/stylish/?src=external-userstyleshome)
 
