@@ -52,4 +52,7 @@ sj-search-box.sj-search-box-0[opened] {
 .circle.paper-spinner-lite, #sliderKnobInner.paper-slider {
     border-radius: 50% !important;
 }
+core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-content, paper-drawer-panel:not([narrow]) paper-header-panel #music-content.material .g-content {
+    margin: 16px 16px 30px 16px;
+}
 }
