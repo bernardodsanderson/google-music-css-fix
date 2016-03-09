@@ -1,35 +1,35 @@
- .material-detail-view .has-hero-image, .solid-hero .material-detail-view .has-hero-image {
+.material-detail-view .has-hero-image, .solid-hero .material-detail-view .has-hero-image {
     margin-top: 0;
-  }
-  .material-card, .material-card .image-wrapper, .material-card .image-inner-wrapper, .material-card .image, .material-container {
+}
+.material-card, .material-card .image-wrapper, .material-card .image-inner-wrapper, .material-card .image, .material-container {
     border-radius: 0;
-  }
-  core-header-panel#content-container.transparent #material-app-bar, paper-header-panel#content-container.transparent #material-app-bar {
-   background-color: #ef6c00;
-  }
-  .gb_ic.gb_Zc.gb_R.gb_jc, #gbwa, paper-fab.paper-fab-0, core-drawer-panel core-image#material-hero-image, paper-drawer-panel iron-image#material-hero-image, .gb_ic gb_0c, .gb_R gb_jc, .gb_lc, .gb_mc, .gb_nc gb_Nb, a.nav-item-container[data-action="help-and-feedback"], a.nav-item-container[data-id="auto-playlist-trash"], a.nav-item-container[data-action="send-gift"] {
+}
+core-header-panel#content-container.transparent #material-app-bar, paper-header-panel#content-container.transparent #material-app-bar {
+    background-color: #ef6c00;
+}
+.gb_ic.gb_Zc.gb_R.gb_jc, #gbwa, paper-fab.paper-fab-0, core-drawer-panel core-image#material-hero-image, paper-drawer-panel iron-image#material-hero-image, .gb_ic gb_0c, .gb_R gb_jc, .gb_lc, .gb_mc, .gb_nc gb_Nb, a.nav-item-container[data-action="help-and-feedback"], a.nav-item-container[data-id="auto-playlist-trash"], a.nav-item-container[data-action="send-gift"] {
     display: none;
-  }
-  core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
-   margin: 16px 16px 30px 16px;
-  }
-  .material-shadow-z1, #player, .material-card.material-shadow-z1:hover, .material-card.material-shadow-z1.focused, .entity-card.material-card:hover .material-shadow-z1, .entity-card.material-card.focused .material-shadow-z1 {
+}
+core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
+    margin: 16px 16px 30px 16px;
+}
+.material-shadow-z1, #player, .material-card.material-shadow-z1:hover, .material-card.material-shadow-z1.focused, .entity-card.material-card:hover .material-shadow-z1, .entity-card.material-card.focused .material-shadow-z1 {
     box-shadow: none;
-  }
-  .gb_Zc {
+}
+.gb_Zc {
     padding: 0 0 0 90px;
-  }
-  .cluster .lane-button.prev {
+}
+.cluster .lane-button.prev {
     left: -30px;
-  }
-  .cluster .lane-button.next {
+}
+.cluster .lane-button.next {
     right: -30px;
-  }
-  *, .material-shadow-z1 {
+}
+*, .material-shadow-z1, sj-mini-queue.sj-mini-queue-0 {
     transition: none !important;
     box-shadow: none !important; 
     border-radius: 0 !important;
-  }
+}
 #material-app-bar, .paper-progress-0 #primaryProgress.paper-progress, .paper-slider-0 #sliderKnobInner.paper-slider, sj-paper-button.material-primary, paper-button.material-primary, .material .song-row .explicit, .paper-progress-1 #primaryProgress.paper-progress, .paper-slider-1 #sliderKnobInner.paper-slider, #current-loading-progress, .material-card .explicit {
     background-color: #319298;
 }
@@ -42,13 +42,20 @@
 sj-search-box.sj-search-box-0[opened] {
     border: 2px solid #319298;
 }
-.material-card {
-    /*border-bottom: 2px solid #319298;*/
-}
-
 .circle.paper-spinner-lite, #sliderKnobInner.paper-slider {
     border-radius: 50% !important;
 }
 core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-content, paper-drawer-panel:not([narrow]) paper-header-panel #music-content.material .g-content {
     margin: 16px 16px 30px 16px;
+}
+#mini-queue-details .imfl-image {
+    background: none;
+    background-color: #319298;
+}
+#mini-queue-details .images {
+    opacity: 1;
+    border-radius: 0;
+}
+.paper-header-panel-0 #dropShadow.paper-header-panel, sj-mini-queue #mini-queue-details.sj-mini-queue::after, #queue-overlay::after {
+    box-shadow: none !important;
 }
