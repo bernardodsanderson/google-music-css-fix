@@ -10,7 +10,7 @@ Basically taking out and simplifying all the CSS3 transitions and box-shadows
 
 - With Safari you can use the [Stylish Extension](http://sobolev.us/stylish/)
 
-Stylish extension and add-ons by [Jason Barnabe](https://userstyles.org/). But you can use any extension that let's you add CSS to a specific page.
+Stylish extension and add-on by [Jason Barnabe](https://userstyles.org/). But you can use any extension that lets you add CSS to a specific page.
 
 This new theme currently uses #319298 (teal) as an accent color, but you can do a search and replace it with any color you'd like.
 
