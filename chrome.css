@@ -1,66 +1,92 @@
 .material-detail-view .has-hero-image, .solid-hero .material-detail-view .has-hero-image {
-    margin-top: 0;
-  }
-  .material-card, .material-card .image-wrapper, .material-card .image-inner-wrapper, .material-card .image, .material-container {
-    border-radius: 0;
-  }
-  core-header-panel#content-container.transparent #material-app-bar, paper-header-panel#content-container.transparent #material-app-bar {
-   background-color: #ef6c00;
-  }
-  .gb_ic.gb_Zc.gb_R.gb_jc, #gbwa, paper-fab.paper-fab-0, core-drawer-panel core-image#material-hero-image, paper-drawer-panel iron-image#material-hero-image, .gb_ic gb_0c, .gb_R gb_jc, .gb_lc, .gb_mc, .gb_nc gb_Nb, a.nav-item-container[data-action="help-and-feedback"], a.nav-item-container[data-id="auto-playlist-trash"], a.nav-item-container[data-action="send-gift"] {
-    display: none;
-  }
-  core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
-   margin: 16px 16px 30px 16px;
-  }
-  .material-shadow-z1, #player, .material-card.material-shadow-z1:hover, .material-card.material-shadow-z1.focused, .entity-card.material-card:hover .material-shadow-z1, .entity-card.material-card.focused .material-shadow-z1 {
-    box-shadow: none;
-  }
-  .gb_Zc {
-    padding: 0 0 0 90px;
-  }
-  .cluster .lane-button.prev {
-    left: -30px;
-  }
-  .cluster .lane-button.next {
-    right: -30px;
-  }
-  *, .material-shadow-z1, sj-mini-queue.sj-mini-queue-0 {
-    transition: none !important;
-    box-shadow: none !important; 
-    border-radius: 0 !important;
-  }
-#material-app-bar, .paper-progress-0 #primaryProgress.paper-progress, .paper-slider-0 #sliderKnobInner.paper-slider, sj-paper-button.material-primary, paper-button.material-primary, .material .song-row .explicit, .paper-progress-1 #primaryProgress.paper-progress, .paper-slider-1 #sliderKnobInner.paper-slider, #current-loading-progress, .material-card .explicit, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-button.paper-toggle-button, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-bar.paper-toggle-button {
-    background-color: #319298;
+  margin-top: 0;
 }
-.material .nav-item-container.selected, .nav-item-container.selected iron-icon, #player.material .material-player-middle sj-icon-button[data-id="play-pause"]:not([disabled]), #player.material .material-player-middle paper-icon-button[data-id="play-pause"]:not([disabled]), .more-songs-container, .top-charts-view .song-row [data-col="index"] .column-content, .material-card .details .left-items .index, .material .goog-menu .goog-menuitem.selected .goog-menuitem-content, .material .goog-menu .goog-menuitem.selected .goog-menuitem-content:hover, .cluster .lane-button core-icon, .cluster .lane-button iron-icon, #player.material .material-player-middle paper-icon-button[data-id="repeat"].active, #player.material .material-player-middle paper-icon-button[data-id="shuffle"].active, #player.material #material-player-right-wrapper paper-icon-button[data-id="queue"].opened, #current-loading-progress, .material-detail-view .material-container-details .read-more-button, paper-action-dialog sj-paper-button:not([disabled]), paper-dialog .buttons paper-button:not([disabled]), .material a.primary {
+core-header-panel#content-container.transparent #material-app-bar, paper-header-panel#content-container.transparent #material-app-bar {
+  background-color: #ef6c00;
+}
+core-header-panel #music-content.material .g-content, paper-header-panel #music-content.material .g-content {
+  margin: 16px 16px 30px 16px;
+}
+.gb_Zc {
+  padding: 0 0 0 90px;
+}
+.cluster .lane-button.prev {
+  left: -30px !important;
+}
+.cluster .lane-button.next {
+  right: -30px !important;
+}
+*, .material-shadow-z1, sj-mini-queue.sj-mini-queue-0, .mainContainer * {
+  transition: none !important;
+  box-shadow: none !important; 
+  border-radius: 0 !important;
+}
+#material-app-bar, .paper-progress-0 #primaryProgress.paper-progress, .paper-slider-0 #sliderKnobInner.paper-slider, sj-paper-button.material-primary, paper-button.material-primary, .material .song-row .explicit, .paper-progress-1 #primaryProgress.paper-progress, .paper-slider-1 #sliderKnobInner.paper-slider, #current-loading-progress, .material-card .explicit, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-button.paper-toggle-button, paper-toggle-button.paper-toggle-button-0[checked]:not([disabled]) .toggle-bar.paper-toggle-button, .paper-fab-0, .paper-progress-2 #primaryProgress.paper-progress, .paper-checkbox-0 #checkbox.checked.paper-checkbox, .material-container-details .info .title .explicit {
+    background-color: #319298 !important;
+}
+.material .nav-item-container.selected, .nav-item-container.selected iron-icon, #player.material .material-player-middle sj-icon-button[data-id="play-pause"]:not([disabled]), #player.material .material-player-middle paper-icon-button[data-id="play-pause"]:not([disabled]), .more-songs-container, .top-charts-view .song-row [data-col="index"] .column-content, .material-card .details .left-items .index, .material .goog-menu .goog-menuitem.selected .goog-menuitem-content, .material .goog-menu .goog-menuitem.selected .goog-menuitem-content:hover, .cluster .lane-button core-icon, .cluster .lane-button iron-icon, #player.material .material-player-middle paper-icon-button[data-id="repeat"].active, #player.material .material-player-middle paper-icon-button[data-id="shuffle"].active, #player.material #material-player-right-wrapper paper-icon-button[data-id="queue"].opened, #current-loading-progress, .material-detail-view .material-container-details .read-more-button, paper-action-dialog sj-paper-button:not([disabled]), paper-dialog .buttons paper-button:not([disabled]), .material a.primary, .situations-content .section-header, .paper-checkbox-0 #checkbox.checked.paper-checkbox {
     color: #319298 !important;
 }
-.paper-spinner-lite-1 .spinner-layer.paper-spinner-lite, #loading-overlay.material paper-spinner-lite .circle {
-    border-color: #319298;
+.paper-spinner-lite-1 .spinner-layer.paper-spinner-lite, #loading-overlay.material paper-spinner-lite .circle, .paper-checkbox-0 #checkbox.checked.paper-checkbox {
+    border-color: #319298 !important;
+}
+sj-search-box.x-scope.sj-search-box-0[has-query] {
+    border: 2px solid #fff;
+    border-bottom: none;
 }
 sj-search-box.sj-search-box-0[opened] {
-    border: 2px solid #319298;
+    border: 2px solid #319298 !important;
 }
-.material-card {
-    /*border-bottom: 2px solid #319298;*/
-}
-
-.circle.paper-spinner-lite, #sliderKnobInner.paper-slider {
+.circle.paper-spinner-lite, #sliderKnobInner.paper-slider, .material-container-details paper-fab, .gb_b, .gb_1a, .gb_oc, .material-card .play-button-container paper-icon-button.play-button, .material-card .play-button-container paper-icon-button.play-indicator, .gb_2a, .gb_pc, .paper-fab-0, .gb_3a, .gbii, .gb_qc, .gb_rc, .gb_Rb {
     border-radius: 50% !important;
 }
 core-drawer-panel:not([narrow]) core-header-panel #music-content.material .g-content, paper-drawer-panel:not([narrow]) paper-header-panel #music-content.material .g-content {
     margin: 16px 16px 30px 16px;
 }
-  #mini-queue-details .imfl-image {
-    background: none;
-    background-color: #319298;
-  }
-  #mini-queue-details .images {
-    opacity: 1;
-    border-radius: 0;
-  }
-  .paper-header-panel-0 #dropShadow.paper-header-panel, sj-mini-queue #mini-queue-details.sj-mini-queue::after, #queue-overlay::after {
-    box-shadow: none !important;
-  }
-  
+#mini-queue-details .imfl-image {
+  background: none;
+  background-color: #319298;
+}
+#mini-queue-details .images {
+  opacity: 1;
+  border-radius: 0;
+}
+.paper-header-panel-0 #dropShadow.paper-header-panel, sj-mini-queue #mini-queue-details.sj-mini-queue::after, #queue-overlay::after {
+  box-shadow: none !important;
+}
+.material-detail-view .has-hero-image {
+  margin-top: 0 !important;
+}
+.situations-content {
+  margin-top: 40px !important;
+}
+.material-container-details .paper-fab-0 {
+  top: -10px !important;
+}
+#queue-overlay::after {
+  border: 8px solid white !important;
+}
+#queue-overlay {
+  border: 1px solid #f5f5f5 !important;
+}
+#left-nav-close-button {
+  color: #f5f5f5;
+}
+#nav-container .nav-toolbar .menu-logo, .material-container-details .info .creator-profile-image, div#loading-logo {
+  -webkit-filter: grayscale(1);
+}
+#material-hero-image {
+  display: none !important;
+}
+.nav-item-container.selected .fade-out::after, .fade-out:after {
+  background: none !important;
+}
+#drawer-panel #player {
+  border-top: 4px solid whitesmoke;
+}
+#drawer-panel paper-header-panel#content-container {
+  height: calc(100% - 94px)!important;
+}
+.paper-slider-0 #sliderKnobInner.paper-slider, .paper-slider-1 #sliderKnobInner.paper-slider, #sliderKnobInner.paper-slider {
+  border: none !important;
+}
